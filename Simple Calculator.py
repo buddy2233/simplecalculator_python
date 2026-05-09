@@ -250,7 +250,7 @@ while True:
             if isinstance(result, str):
                 error_print(f"\n{result}\n")
             else:
-                sucess_print(f"\nlog10({num11}) =  {result} \n")
+                success_print(f"\nlog10({num11}) =  {result} \n")
 
     elif choice == '16':
         num12 = Afloat("Enter the number:")
